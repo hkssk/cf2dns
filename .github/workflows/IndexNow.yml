@@ -15,7 +15,7 @@ jobs:
         with:
           sitemap-location: "https://www.xingchenfm.cc/rss/bing.xml"
           endpoint: "www.bing.com"
-          since: 3
+          since: 1
           since-unit: "day"
           limit: 10
           key: ${{ secrets.INDEXNOW_KEY }}
